@@ -1,9 +1,9 @@
 <?php
 header("Content-Type: text/html;charset=utf-8");
-require("class.phpmailer.php");
-require("rands.php");
-require("timer.php");
-include_once("sql.php");
+require("../../../class.phpmailer.php");
+require("../../../rands.php");
+require("../../../timer.php");
+include_once("../../../sql.php");
 $responddata = array("code"=>"","message"=>"");
 $address = $_POST['useremail'];
 $userip = $_POST['ip'];
